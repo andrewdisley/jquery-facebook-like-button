@@ -1,0 +1,42 @@
+= jQuery Facebook "Like" button
+
+== About
+
+Easy to use to create a Facebook Like button with jQuery.
+
+Source code is at http://github.com/henningthies/jquery-facebook-like-button.
+
+== Usage
+
+standard usage:
+  $('#facebook-like').fbLike("http://github.com");
+
+with options:
+  var url = "http://github.com";
+  $('#facebook-like').fbLike(url, {
+    layout: "button_count",
+    font: "lucida grande"
+    color: "dark"
+  });
+  
+== Defaults
+  
+  scrolling: "no"
+  frameborder: 0
+  allowTransparency: true
+  layout: "standard"
+  show_faces: true
+  width: 450
+  height: 21
+  verb: "like"
+  font: "arial"
+  color: "light"
+
+== License
+
+This library is provided via the GNU LGPL license at http://www.gnu.org/licenses/lgpl.html.
+
+== Author
+
+Copyright 2010, Henning Thies <thies@ubilabs.net>, 
+http://www.ubilabs.net.
