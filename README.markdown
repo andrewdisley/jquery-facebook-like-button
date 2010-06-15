@@ -51,7 +51,7 @@ Defaults
 
 License
 -------
-This library is provided via the GNU LGPL license at http://www.gnu.org/licenses/lgpl.html.
+Use it like you want.
 
 Author
 ------
