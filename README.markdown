@@ -22,19 +22,19 @@ Example
 -------
 
 For the html div:
-  <div id='facebook-like'></div>
+  `<div id='facebook-like'></div>`
 
 ###simple:
-`$('#facebook-like').fbLike("http://github.com");`
+  $('#facebook-like').fbLike("http://github.com");
 
 
 ###with options:
-`var url = "http://github.com";
-$('#facebook-like').fbLike(url, {
-  layout: "button_count",
-  font: "lucida grande"
-  color: "dark"
-});`  
+  var url = "http://github.com";
+  $('#facebook-like').fbLike(url, {
+    layout: "button_count",
+    font: "lucida grande"
+    color: "dark"
+  }); 
 Defaults
 --------  
   scrolling: "no"
