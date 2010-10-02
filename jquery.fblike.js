@@ -7,9 +7,6 @@
     Created by Henning Thies
     http://github.com/henningthies
     
-
-    Licensed under a Creative Commons Attribution-Non-Commercial 3.0 Unported License
-    http://creativecommons.org/licenses/by-nc/3.0/
   */
 
 $.fn.fbLike = function(url, options) {
